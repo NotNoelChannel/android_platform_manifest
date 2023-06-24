@@ -3,6 +3,7 @@
 	<!-- TODO: remove intrusive hardware stuff -->
 	<remote name="T110-android" fetch="https://github.com/T110-android/" />
 	<remote name="samsung-goya" fetch="https://github.com/samsung-goya/" />
+	<remote name="NotNoelChannel" fetch="https://github.com/NotNoelChannel/" />
 	<remove-project name="CyanogenMod/android_hardware_libhardware" />
 	<remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
 	<remove-project name="CyanogenMod/android_hardware_broadcom_libbt" />
@@ -10,11 +11,11 @@
 	<!-- Device Trees -->
 	<project path="device/samsung/goyawifi" remote="samsung-goya" name="android_device_samsung_goyawifi" revision="cm-11.0" />
 	<project path="device/samsung/goya3g" remote="samsung-goya" name="android_device_samsung_goya3g" revision="cm-11.0" />
-  	<project path="device/samsung/goya-common" remote="samsung-goya" name="android_device_samsung_goya-common" revision="cm-11.0" />
+  	<project path="device/samsung/goya-common" remote="NotNoelChannel" name="android_device_samsung_goya-common" revision="cm-12.1" />
 	
 	<!-- Kernel/Vendor -->
 	<project path="vendor/samsung/goya" remote="T110-android" name="android_vendor_samsung_goya" revision="cm-11.0" />
-	<project path="kernel/samsung/goya" remote="T110-android" name="android_kernel_samsung_goya" revision="cm-11.0" />
+	<project path="kernel/samsung/goya" remote="NotNoelChannel" name="android_kernel_samsung_goya" revision="cm-12.1" />
 
 	<!-- MRVL-specific -->
 	<project path="device/samsung/marvell-common" remote="T110-android" name="android_device_samsung_marvell-common" revision="cm-11.0" />
